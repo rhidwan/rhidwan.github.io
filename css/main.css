@@ -47,7 +47,7 @@
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #474545;
+    background: #2d2c2c;
     transition: all .5s ease-in-out;
     transform: translate3d(0, 100%, 0); }
     .menu-branding.show {
@@ -261,11 +261,13 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/portrait_small.jpg");
+      background: url("../img/portrait150.jpg");
       height: 150px;
       width: 150px; }
+  #about {
+    padding: 2rem; }
   .about-info {
-    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
+    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2';
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
